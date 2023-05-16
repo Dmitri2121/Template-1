@@ -1,0 +1,30 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    @extend %font-prim;
+    @include font ($size: 1.5rem, $height: 2.6rem, $weight: normal)
+}
+
+h1 {
+    @extend %font-add;
+    @include font (44px, 54px,)
+}
+
+h2 {
+    font-family: 'Open Sans';
+    @include font (34px, 46px,)
+}
+
+h3 {
+    @include font (22px, 30px,)
+}
+
+h4 {
+    @include font (22px, 30px)
+}
+
+h5 {
+    @include font (16px, 26px,)
+}
