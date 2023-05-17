@@ -1,23 +1,29 @@
-//Mixin
+@import "../base/normlize";
+
+//Abstract
 @import "../abstract/mixins";
-
-//Placeholder
 @import "../abstract/placeholder";
-
 @import "../abstract/constants";
+
+//Base
+
 @import "../base/buttons";
 @import "../base/base";
-@import "../base/normlize";
 @import "../base/icons";
+@import "../base/tags";
+
 
 //Layouts
 @import "../layout/header";
 @import "../layout/wrapper";
+@import "../layout/columns";
 
 //Components
 @import "../components/contact-us";
 @import "../components/promo";
 @import "../components/navigation";
+@import "../components/tools";
+@import "../components/strategies";
 
 
 
