@@ -28,3 +28,26 @@
         min-width: 117px;
     }
 }
+
+.ico__phone {
+    background-image: url("../img/icon/contact-us/01.svg");
+    width: 25px;
+    height: 25px;
+}
+
+.ico__letter {
+    background-image: url("../img/icon/contact-us/02.svg");
+    width: 25px;
+    height: 25px;
+}
+
+.ico__link {
+    @include font ($size: 25px, $height: 26px, $weight: 400);
+    color: $color-text;
+    text-decoration: none;
+}
+
+.contact-us__text {
+    margin: 0 0 33px 0;
+}
+
